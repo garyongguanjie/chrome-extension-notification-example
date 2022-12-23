@@ -1,0 +1,15 @@
+{
+    "name":"test-notification",
+    "description":"example to test notification system",
+    "version":"1.0",
+    "manifest_version":3,
+    "permissions":[
+        "notifications"
+    ],
+    "action":{
+        "default_icon":"icon-32.png"
+    },
+    "background":{
+        "service_worker":"background.js"
+    }
+}
